@@ -18,15 +18,35 @@ The code for this project is identical to the code for our `useLocalStorage` cus
 1. TypeError: Cannot convert undefined or null to object
    in expect.extend(matchers) setUpTests.js
 
-   - make sure in package.json
+   - make sure in package.json if you have creatd new Vit + react project or use the project package.json
+
+   ```javascript
      "devDependencies": {
-     "@testing-library/jest-dom": "^5.16.5", **is this version
-     "@testing-library/react": "^14.0.0",
-     "@testing-library/user-event": "^14.4.3",
-     "@types/react": "^18.0.27",
-     "@types/react-dom": "^18.0.10",
-     "@vitejs/plugin-react-swc": "^3.0.0",
-     "jsdom": "^22.1.0",
-     "vite": "^4.1.0",
-     "vitest": "^0.32.2" **is this version
+         "@testing-library/jest-dom": "^5.16.5", **is this version
+         "@testing-library/react": "^14.0.0",
+         "@testing-library/user-event": "^14.4.3",
+         "@types/react": "^18.0.27",
+         "@types/react-dom": "^18.0.10",
+         "@vitejs/plugin-react-swc": "^3.0.0",
+         "jsdom": "^22.1.0",
+         "vite": "^4.1.0",
+         "vitest": "^0.32.2" **is this version
      }
+   ```
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  cd my-project
+  npm install
+```
